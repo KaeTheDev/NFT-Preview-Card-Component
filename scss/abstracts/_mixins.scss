@@ -1,0 +1,5 @@
+@mixin typography($font-family-primary, $size, $weight) {
+    font-family: $font-family-primary;
+    font-size: $size;
+    font-weight: $weight;
+  }  

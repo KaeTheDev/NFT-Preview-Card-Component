@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+<link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+
+  <article class="nft-card">
+    <div class="nft-card__content">
+        <figure class="nft-card__image-container">
+            <img class="nft-card__image" src="images/image-equilibrium.jpg" alt="Equilibrium #3429">
+            <div class="nft-card__overlay">
+              <img class="nft-card__icon" src="images/icon-view.svg" alt="View Icon">
+          </div>
+        </figure>
+        
+        <div class="nft-card__text-content">
+            <h1 class="nft-card__title large-text-bold">Equilibrium #3429</h1>
+            <p class="nft-card__description medium-text-light">Our Equilibrium collection promotes balance and calm.</p>
+            
+            <div class="nft-card__details">
+              <div class="nft-card__price-container">
+                <img src="images/icon-ethereum.svg" alt="ETH">
+                <span class="nft-card__price sm-text-bold">0.041 ETH</span>
+              </div>
+              <div class="nft-card__time-container">
+                <img src="images/icon-clock.svg" alt="clock">
+                <time class="nft-card__time sm-text-regular" datetime="2025-03-11">3 days left</time>
+              </div>            
+            </div>
+
+            <hr class="nft-card__divider" />
+            
+            <footer class="nft-card__footer">
+                  <img class="nft-card__profile" src="images/image-avatar.png" alt="profile-avatar">
+                  <p class="nft-card__creator sm-text-regular">
+                    Creation of <a href="#" class="nft-card__link">Jules Wyvern</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+</article>
+
+
+
+ 
+</body>
+</html>
